@@ -1,100 +1,96 @@
 body {
-    margin: 40px;
-    font-family: "Adobe Caslon Pro", "Minion Pro", serif;
-    font-size: 15pt;
+  margin: 40px;
+  font-family: serif;
+  font-size: 15pt;
 }
 
 header {
-    font-family: "Trajan Pro", serif;
-    padding-bottom: 20px;
+  font-family: serif;
+  padding-bottom: 20px;
 }
 
 header h1 {
-    font-size: 50pt;
-    letter-spacing: 2pt;
-    border-bottom: 1px solid black;
-    margin-bottom: 4px;
+  font-size: 50pt;
+  letter-spacing: 2pt;
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
 }
 
 header span {
-    font-size: 15pt;
-    float: right;
+  font-size: 15pt;
+  float: right;
 }
 
 section h2 {
-    font-family: "Trajan Pro", serif;
-    font-size: 20pt;
+  font-family: serif;
+  font-size: 20pt;
 }
 
 section p {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 section.coverletter {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 section.coverletter p {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 section ul {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .jobtable {
-    display: table;
-    width: 100%;
-    border-bottom: 1px solid black;
-    margin-left: 20px;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
 }
 
 .edtable {
-    display: table;
-    width: 100%;
-    margin-left: 20px;
-    padding-bottom: 15px;
+  display: table;
+  width: 100%;
+  margin-left: 20px;
+  padding-bottom: 15px;
 }
 
 .skillstable {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
 
 .table {
-    display: table;
-    margin-left: 20px;
+  display: table;
+  margin-left: 20px;
 }
 
 .tablerow {
-    display: table-row;
+  display: table-row;
 }
 
 .jobtitle {
-    display: table-cell;
-    font-style: italic;
-    font-size:20px;
+  display: table-cell;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .right {
-    display: table-cell;
-    text-align: right;
+  display: table-cell;
+  text-align: right;
 }
 
 .cell {
-    display: table-cell;
+  display: table-cell;
 }
 
 .onlinecell {
-    font-style: italic;
-    padding-right: 10px;
+  font-style: italic;
+  padding-right: 10px;
 }
 
 .urlcell {
-    display: table-cell;
-    letter-spacing: 1px;
-}
-
-.pagebreak {
-    page-break-before: always;
+  display: table-cell;
+  letter-spacing: 1px;
 }

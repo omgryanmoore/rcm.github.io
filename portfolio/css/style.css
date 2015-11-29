@@ -1,96 +1,44 @@
+body,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-  margin: 40px;
-  font-family: serif;
-  font-size: 15pt;
+	font-family: "Helvetica"
+	background-color: #f8f8f8;
 }
 
-header {
-  font-family: serif;
-  padding-bottom: 20px;
+
+li {
+	display: inline;
+	list-style: none;
 }
 
-header h1 {
-  font-size: 50pt;
-  letter-spacing: 2pt;
-  border-bottom: 1px solid black;
-  margin-bottom: 4px;
+a {
+	text-decoration: none;
 }
 
-header span {
-  font-size: 15pt;
-  float: right;
-}
+#navbar {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
 
-section h2 {
-  font-family: serif;
-  font-size: 20pt;
-}
+#navbar li {
+	float: left; }
 
-section p {
-  margin-left: 40px;
-}
+#navbar li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+		border-right: 1px solid #ccc; }
 
-section.coverletter {
-  margin-top: 40px;
-}
-
-section.coverletter p {
-  margin-left: 0px;
-}
-
-section ul {
-  list-style-type: circle;
-}
-
-.jobtable {
-  display: table;
-  width: 100%;
-  border-bottom: 1px solid black;
-  margin-left: 20px;
-}
-
-.edtable {
-  display: table;
-  width: 100%;
-  margin-left: 20px;
-  padding-bottom: 15px;
-}
-
-.skillstable {
-  display: table;
-  width: 100%;
-}
-
-.table {
-  display: table;
-  margin-left: 20px;
-}
-
-.tablerow {
-  display: table-row;
-}
-
-.jobtitle {
-  display: table-cell;
-  font-style: italic;
-  font-size: 20px;
-}
-
-.right {
-  display: table-cell;
-  text-align: right;
-}
-
-.cell {
-  display: table-cell;
-}
-
-.onlinecell {
-  font-style: italic;
-  padding-right: 10px;
-}
-
-.urlcell {
-  display: table-cell;
-  letter-spacing: 1px;
-}
+#navbar li a:hover {
+		color: #c00;
+		background-color: #fff; }
